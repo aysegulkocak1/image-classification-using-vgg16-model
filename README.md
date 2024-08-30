@@ -47,13 +47,14 @@ Each subfolder under train/ and test/ should contain images belonging to the cor
 To run the script, use the following command:
 ```bash
 python vgg16_training.py --dataroot /path/to/train --validroot /path/to/valid --datainfo /path/to/data.txt --epochs 10
+```
 
 Arguments:
 --dataroot: Path to the training dataset.
 --validroot: Path to the test dataset.
 --datainfo: Path to the data information file (data.txt), which includes classes, number of classes, and batch size.
 --epochs: Number of training epochs.
-```
+
 
 ## Outputs
 
