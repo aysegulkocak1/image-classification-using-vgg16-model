@@ -25,15 +25,15 @@ pip install torch torchvision numpy scikit-learn matplotlib
 
 ## Dataset Structure
 The script expects the dataset to be organized as follows:
-
+```
 dataset/
   train/
-     class1/
-       image1.jpg
-       image2.jpg
-     class2/
-       image3.jpg
-       image4.jpg
+    class1/
+      image1.jpg
+      image2.jpg
+    class2/
+      image3.jpg
+      image4.jpg
   test/
     class1/
       image1.jpg
@@ -41,6 +41,8 @@ dataset/
     class2/
       image3.jpg
       image4.jpg
+
+```
 
 Each subfolder under `train/` and `test/` should contain images belonging to the corresponding class.
 
