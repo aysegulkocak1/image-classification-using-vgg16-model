@@ -1,0 +1,4 @@
+
+classes = [nonfood,food]
+num_of_classes = 2
+batch_size = 32
