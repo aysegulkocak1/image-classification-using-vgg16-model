@@ -41,7 +41,9 @@ dataset/
     class2/
       image3.jpg
       image4.jpg
-Each subfolder under train/ and test/ should contain images belonging to the corresponding class.
+
+Each subfolder under `train/` and `test/` should contain images belonging to the corresponding class.
+
 
 ## Running the Script
 To run the script, use the following command:
@@ -50,25 +52,25 @@ python vgg16_training.py --dataroot /path/to/train --validroot /path/to/valid --
 ```
 
 Arguments:
---dataroot: Path to the training dataset.
---validroot: Path to the test dataset.
---datainfo: Path to the data information file (data.txt), which includes classes, number of classes, and batch size.
---epochs: Number of training epochs.
+- --dataroot: Path to the training dataset.
+- --validroot: Path to the test dataset.
+- --datainfo: Path to the data information file (data.txt), which includes classes, number of classes, and batch size.
+- --epochs: Number of training epochs.
 
 
 ## Outputs
 
 The script will:
--Train the VGG16 model.
--Save the best and last models based on validation accuracy.
--Generate and save confusion matrices.
--Plot and save loss and accuracy graphs for both training and validation phases.
+- Train the VGG16 model.
+- Save the best and last models based on validation accuracy.
+- Generate and save confusion matrices.
+- Plot and save loss and accuracy graphs for both training and validation phases.
 
 ## Example Dataset
 You can use the Food-5K dataset as an example. Make sure to arrange the dataset according to the structure mentioned above.
 https://archive.org/download/food-5-k/Food-5K.zip
 
-##Visualizations
+## Visualizations
 After training, the following visualizations will be generated and saved:
 
 Confusion Matrix
@@ -86,8 +88,8 @@ Example:
 
 
 Notes
--The best model is saved based on the highest validation accuracy.
--All visualizations are saved in the directory where the script is executed.
+- The best model is saved based on the highest validation accuracy.
+- All visualizations are saved in the directory where the script is executed.
 
 
 
