@@ -21,6 +21,7 @@ This repository contains a Python script for training a VGG16 model using PyTorc
 You can install the necessary packages using:
 ```bash
 pip install torch torchvision numpy scikit-learn matplotlib
+```
 
 ## Dataset Structure
 The script expects the dataset to be organized as follows:
@@ -52,6 +53,7 @@ Arguments:
 --validroot: Path to the test dataset.
 --datainfo: Path to the data information file (data.txt), which includes classes, number of classes, and batch size.
 --epochs: Number of training epochs.
+```
 
 ## Outputs
 
