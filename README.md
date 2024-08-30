@@ -50,7 +50,7 @@ Each subfolder under `train/` and `test/` should contain images belonging to the
 ## Running the Script
 To run the script, use the following command:
 ```bash
-python vgg16_training.py --dataroot /path/to/train --validroot /path/to/valid --datainfo /path/to/data.txt --epochs 10
+python train.py --dataroot /path/to/train --validroot /path/to/valid --datainfo /path/to/data.txt --epochs 10
 ```
 
 Arguments:
